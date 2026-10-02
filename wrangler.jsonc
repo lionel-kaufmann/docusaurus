@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  // Name of your Worker/Pages project — becomes <name>.<your-subdomain>.workers.dev
+  "name": "docusaurus",
+
+  // Pin the Workers runtime behavior to a specific date (use today's date on first setup)
+  "compatibility_date": "2026-10-03",
+
+  // Optional: enable Node.js compatibility APIs if any dependency needs them
+  // "compatibility_flags": ["nodejs_compat"],
+
+  // Serve static files directly from this folder (no server code needed for a static site)
+  "assets": {
+    "directory": "./build"
+  },
+
+  // Enables Cloudflare's built-in logs/metrics for this Worker
+  "observability": {
+    "enabled": true
+  }
+}
