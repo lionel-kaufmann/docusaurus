@@ -18,5 +18,12 @@
   // Enables Cloudflare's built-in logs/metrics for this Worker
   "observability": {
     "enabled": true
-  }
+  },
+
+  // Explicitly enable the public <name>.<subdomain>.workers.dev URL
+  // (set to false once you attach a custom domain, if you want to disable it)
+  "workers_dev": true,
+
+  // Explicitly enable preview URLs for non-production deployments/branches
+  "preview_urls": true
 }
