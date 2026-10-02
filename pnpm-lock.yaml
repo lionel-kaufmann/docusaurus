@@ -20,9 +20,6 @@ importers:
       '@mdx-js/react':
         specifier: ^3.0.0
         version: 3.1.1(@types/react@19.3.0)(react@19.3.0)
-      always:
-        specifier: ^2.2.0
-        version: 2.2.0
       clsx:
         specifier: ^2.0.0
         version: 2.1.1
@@ -2495,11 +2492,6 @@ packages:
   algoliasearch@5.59.0:
     resolution: {integrity: sha512-wUXzaeI7B526W4y1gFg3lcxgDZ67XSgRJIiellYWOas/pLpO7rOtxm9Gr2E/C8aiSDXIgx1q5TdSsvK67Uakqw==}
     engines: {node: '>= 14.0.0'}
-
-  always@2.2.0:
-    resolution: {integrity: sha512-/chnqoBJXp7ZDo8ma1wUA2skRKfIuJ5KwdNdWtNGkpwB9lmVgRxes/uQRVjAFvaQzLW8wOkCOxIDZfB0m8yIjw==}
-    engines: {node: '>= 0.8.0'}
-    hasBin: true
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -9426,8 +9418,6 @@ snapshots:
       '@algolia/requester-browser-xhr': 5.59.0
       '@algolia/requester-fetch': 5.59.0
       '@algolia/requester-node-http': 5.59.0
-
-  always@2.2.0: {}
 
   ansi-align@3.0.1:
     dependencies:
