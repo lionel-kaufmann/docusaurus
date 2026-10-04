@@ -15,6 +15,14 @@
     "directory": "./build"
   },
 
+  // Production custom domain for the documentation site
+  "routes": [
+    {
+      "pattern": "docs.lkmail.me",
+      "custom_domain": true
+    }
+  ],
+
   // Enables Cloudflare's built-in logs/metrics for this Worker
   "observability": {
     "enabled": true
